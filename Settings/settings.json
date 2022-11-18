@@ -1,0 +1,44 @@
+{
+  "editor.minimap.enabled": false,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "dart.openDevTools": "flutter",
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.suggestSmartCommit": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
+    "*.dart": "${capture}.g.dart",
+    "*.ts": "${capture}.typegen.ts",
+    "*.tsx": "${capture}.typegen.ts",
+    "*.mts": "${capture}.typegen.ts",
+    "*.cts": "${capture}.typegen.ts"
+  },
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "icons",
+  "workbench.editor.openPositioning": "last",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editor.sharedViewState": true,
+  "dart.renameFilesWithClasses": "prompt",
+  "lldb.library": "/Applications/Xcode-14.1.0-Release.Candidate.2.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB"
+}

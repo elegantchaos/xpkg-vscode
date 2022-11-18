@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug xpkg-vscode-xpkg-hooks",
+            "program": "${workspaceFolder:xpkg-vscode}/.build/debug/xpkg-vscode-xpkg-hooks",
+            "args": [],
+            "cwd": "${workspaceFolder:xpkg-vscode}",
+            "preLaunchTask": "swift: Build Debug xpkg-vscode-xpkg-hooks"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release xpkg-vscode-xpkg-hooks",
+            "program": "${workspaceFolder:xpkg-vscode}/.build/release/xpkg-vscode-xpkg-hooks",
+            "args": [],
+            "cwd": "${workspaceFolder:xpkg-vscode}",
+            "preLaunchTask": "swift: Build Release xpkg-vscode-xpkg-hooks"
+        }
+    ]
+}
