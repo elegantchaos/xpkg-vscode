@@ -40,6 +40,6 @@
   "workbench.editor.revealIfOpen": true,
   "workbench.editor.sharedViewState": true,
   "dart.renameFilesWithClasses": "prompt",
-  "lldb.library": "/Applications/Xcode-14.1.0-Release.Candidate.2.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB"
+  "lldb.library": "~/.local/share/current-lldb",
   "window.restoreFullscreen": true
 }
