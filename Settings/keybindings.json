@@ -4,7 +4,7 @@
     "key": "shift+cmd+r",
     "command": "workbench.action.tasks.runTask",
     "args": "run local model server"
-},
+  },
   {
     "key": "shift+cmd+e",
     "command": "-workbench.view.explorer",
