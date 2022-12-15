@@ -1,9 +1,14 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
   {
-    "key": "shift+cmd+r",
+    "key": "shift+cmd+k s",
     "command": "workbench.action.tasks.runTask",
     "args": "run local model server"
+  },
+  {
+    "key": "shift+cmd+k g",
+    "command": "workbench.action.tasks.runTask",
+    "args": "generate model"
   },
   {
     "key": "shift+cmd+e",
@@ -123,6 +128,10 @@
   {
     "key": "shift+cmd+j",
     "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "workbench.action.closeEditorsAndGroup"
   },
   {
     "key": "shift+cmd+t",
