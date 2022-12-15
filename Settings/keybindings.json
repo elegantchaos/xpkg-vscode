@@ -123,5 +123,9 @@
   {
     "key": "shift+cmd+j",
     "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "workbench.action.closeEditorsAndGroup"
   }
 ]
