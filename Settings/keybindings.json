@@ -136,5 +136,10 @@
   {
     "key": "shift+cmd+t",
     "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
   }
 ]
