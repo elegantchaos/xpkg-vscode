@@ -18,8 +18,8 @@
   "dart.openDevTools": "flutter",
   "workbench.startupEditor": "none",
   "workbench.sideBar.location": "right",
-  "dart.debugExternalPackageLibraries": false,
-  "dart.debugSdkLibraries": false,
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": true,
   "explorer.confirmDragAndDrop": false,
   "git.suggestSmartCommit": false,
   "explorer.fileNesting.enabled": true,
@@ -41,5 +41,9 @@
   "workbench.editor.sharedViewState": true,
   "dart.renameFilesWithClasses": "prompt",
   "lldb.library": "~/.local/share/current-lldb",
-  "window.restoreFullscreen": true
+  "window.restoreFullscreen": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "dart.showInspectorNotificationsForWidgetErrors": false
 }
