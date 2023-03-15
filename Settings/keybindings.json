@@ -3,12 +3,17 @@
   {
     "key": "shift+cmd+k s",
     "command": "workbench.action.tasks.runTask",
-    "args": "run local model server"
+    "args": "club: run server"
   },
   {
     "key": "shift+cmd+k g",
     "command": "workbench.action.tasks.runTask",
-    "args": "generate model"
+    "args": "club: generate model"
+  },
+  {
+    "key": "shift+cmd+k t",
+    "command": "workbench.action.tasks.runTask",
+    "args": "club: ci"
   },
   {
     "key": "shift+cmd+e",
