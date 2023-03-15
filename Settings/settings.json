@@ -45,5 +45,28 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "dart.showInspectorNotificationsForWidgetErrors": false
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "yaml.schemas": {
+    "file:///Users/sam/.vscode/extensions/atlassian.atlascode-3.0.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": false,
+  "go.survey.prompt": false,
+  "go.toolsManagement.checkForUpdates": "off",
+  "git.enableSmartCommit": true,
+  "git.inputValidation": "off",
+  "git.mergeEditor": true,
+  "git.pruneOnFetch": true,
+  "debug.toolBarLocation": "docked",
+  "git.closeDiffOnOperation": true,
+  "git.fetchOnPull": true,
+  "git.postCommitCommand": "sync",
+  "workbench.colorTheme": "GitHub Dark",
+  "dart.checkForSdkUpdates": false,
+  "githubPullRequests.pullBranch": "never",
+  "git.ignoreRebaseWarning": true,
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  "editor.dragAndDrop": false,
+  "atlascode.bitbucket.enabled": false,
+  "dart.promptToGetPackages": false
 }
