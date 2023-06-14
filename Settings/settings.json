@@ -1,7 +1,17 @@
 {
   "editor.minimap.enabled": false,
   "git.confirmSync": false,
+  "git.closeDiffOnOperation": true,
   "git.autofetch": true,
+  "git.suggestSmartCommit": false,
+  "git.autoStash": true,
+  "git.enableSmartCommit": true,
+  "git.inputValidation": "off",
+  "git.mergeEditor": true,
+  "git.pruneOnFetch": true,
+  "git.fetchOnPull": true,
+  "git.postCommitCommand": "sync",
+
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -21,7 +31,6 @@
   "dart.debugExternalPackageLibraries": true,
   "dart.debugSdkLibraries": true,
   "explorer.confirmDragAndDrop": false,
-  "git.suggestSmartCommit": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
@@ -34,7 +43,6 @@
   "editor.fontLigatures": true,
   "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
   "explorer.confirmDelete": false,
-  "workbench.iconTheme": "icons",
   "workbench.editor.openPositioning": "last",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.revealIfOpen": true,
@@ -49,17 +57,10 @@
   "yaml.schemas": {
     "file:///Users/sam/.vscode/extensions/atlassian.atlascode-3.0.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
+
   "redhat.telemetry.enabled": false,
   "go.survey.prompt": false,
   "go.toolsManagement.checkForUpdates": "off",
-  "git.enableSmartCommit": true,
-  "git.inputValidation": "off",
-  "git.mergeEditor": true,
-  "git.pruneOnFetch": true,
-  "debug.toolBarLocation": "docked",
-  "git.closeDiffOnOperation": true,
-  "git.fetchOnPull": true,
-  "git.postCommitCommand": "sync",
   "workbench.colorTheme": "GitHub Dark",
   "dart.checkForSdkUpdates": false,
   "githubPullRequests.pullBranch": "never",
@@ -68,5 +69,18 @@
   "editor.tabSize": 2,
   "editor.dragAndDrop": false,
   "atlascode.bitbucket.enabled": false,
-  "dart.promptToGetPackages": false
+  "dart.promptToGetPackages": false,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.inlineSuggest.enabled": true,
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "028c6563-89de-48ca-becd-da2bfefd5509",
+    "projectKey": "TEC"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "vsicons.dontShowNewVersionMessage": true,
+  "debug.onTaskErrors": "showErrors",
+  "debug.toolBarLocation": "hidden"
 }
