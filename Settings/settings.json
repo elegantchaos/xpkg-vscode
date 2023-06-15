@@ -15,6 +15,9 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -27,7 +30,6 @@
   },
   "dart.openDevTools": "flutter",
   "workbench.startupEditor": "none",
-  "workbench.sideBar.location": "right",
   "dart.debugExternalPackageLibraries": true,
   "dart.debugSdkLibraries": true,
   "explorer.confirmDragAndDrop": false,
@@ -48,19 +50,24 @@
   "workbench.editor.revealIfOpen": true,
   "workbench.editor.sharedViewState": true,
   "dart.renameFilesWithClasses": "prompt",
-  "lldb.library": "~/.local/share/current-lldb",
+  "lldb.library": "/Applications/Xcode-14.3.1.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
   "window.restoreFullscreen": true,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "dart.showInspectorNotificationsForWidgetErrors": false,
   "yaml.schemas": {
-    "file:///Users/sam/.vscode/extensions/atlassian.atlascode-3.0.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///Users/sam/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
 
   "redhat.telemetry.enabled": false,
   "go.survey.prompt": false,
   "go.toolsManagement.checkForUpdates": "off",
+  "git.enableSmartCommit": true,
+  "git.inputValidation": "off",
+  "git.mergeEditor": true,
+  "git.pruneOnFetch": true,
+  "debug.toolBarLocation": "hidden",
+  "git.closeDiffOnOperation": true,
+  "git.fetchOnPull": true,
+  "git.postCommitCommand": "sync",
   "workbench.colorTheme": "GitHub Dark",
   "dart.checkForSdkUpdates": false,
   "githubPullRequests.pullBranch": "never",
@@ -76,11 +83,37 @@
     "siteId": "028c6563-89de-48ca-becd-da2bfefd5509",
     "projectKey": "TEC"
   },
+  "githubIssues.issueCompletions.enabled": false,
   "[python]": {
     "editor.formatOnType": true
   },
+  "githubPullRequests.createDraft": true,
+  "githubIssues.userCompletions.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "debug.onTaskErrors": "abort",
+  "githubPullRequests.createOnPublishBranch": "never",
+  "githubPullRequests.pushBranch": "always",
+  "atlascode.jira.startWorkBranchTemplate.customPrefixes": [],
+  "sortJSON.excludedFiles": [
+    "package.json",
+    "**/package.json",
+    "turbo.json"
+  ],
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.sideBar.location": "right",
+  "atlascode.jira.explorer.monitorEnabled": false,
+  "atlascode.jira.startWorkBranchTemplate.customTemplate": "issues/{{{issueKey}}}-{{{summary}}}",
+  "protoc": {},
+  "apiLinter.configDir": "${workspaceFolder}/",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "scminput": false
+  },
   "git.openRepositoryInParentFolders": "never",
   "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.scrollback": 10000,
+  "gitlens.terminalLinks.enabled": false,
   "debug.onTaskErrors": "showErrors",
   "debug.toolBarLocation": "hidden"
 }
