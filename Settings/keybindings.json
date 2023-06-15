@@ -1,14 +1,33 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
   {
-    "key": "shift+cmd+k s",
+    "key": "shift+cmd+k j",
+    "command": "atlascode.jira.showIssueForKey"
+  },
+  {
+    "key": "shift+cmd+k w",
     "command": "workbench.action.tasks.runTask",
-    "args": "club: run server"
+    "args": "club: watch"
+  },
+  {
+    "key": "shift+cmd+k m",
+    "command": "workbench.action.tasks.runTask",
+    "args": "club: generate model"
+  },
+  {
+    "key": "shift+cmd+k u",
+    "command": "workbench.action.tasks.runTask",
+    "args": "club: update"
+  },
+  {
+    "key": "shift+cmd+k k",
+    "command": "workbench.action.tasks.runTask",
+    "args": "club: nuke"
   },
   {
     "key": "shift+cmd+k g",
     "command": "workbench.action.tasks.runTask",
-    "args": "club: generate model"
+    "args": "club: generate"
   },
   {
     "key": "shift+cmd+k t",
@@ -158,6 +177,67 @@
     "when": "!editorIsOpen && !multipleEditorGroups"
   },
   {
+    "key": "ctrl+cmd+r",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "f2",
+    "command": "-editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "cmd+3",
+    "command": "-workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "-workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  {
+    "key": "cmd+4",
+    "command": "-workbench.action.focusFourthEditorGroup"
+  },
+  {
+    "key": "cmd+4",
+    "command": "atlascode.views.jira.customJql.focus"
+  },
+  {
+    "key": "f3",
+    "command": "-editor.action.nextMatchFindAction",
+    "when": "editorFocus"
+  },
+{
     "key": "alt+/",
     "command": "-gitlens.gitCommands",
     "when": "!gitlens:disabled && config.gitlens.keymap == 'alternate'"
