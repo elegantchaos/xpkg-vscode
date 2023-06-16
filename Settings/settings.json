@@ -1,5 +1,33 @@
 {
+  // Editor
   "editor.minimap.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  "editor.dragAndDrop": false,
+  "editor.inlineSuggest.enabled": true,
+  // Explorer
+  "explorer.confirmDragAndDrop": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
+    "*.dart": "${capture}.g.dart",
+    "*.ts": "${capture}.typegen.ts",
+    "*.tsx": "${capture}.typegen.ts",
+    "*.mts": "${capture}.typegen.ts",
+    "*.cts": "${capture}.typegen.ts"
+  },
+  "explorer.confirmDelete": false,
+  // Workbench
+  "workbench.startupEditor": "none",
+  "workbench.editor.openPositioning": "last",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editor.sharedViewState": true,
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "vscode-icons",
+  // Git
   "git.confirmSync": false,
   "git.closeDiffOnOperation": true,
   "git.autofetch": true,
@@ -11,13 +39,28 @@
   "git.pruneOnFetch": true,
   "git.fetchOnPull": true,
   "git.postCommitCommand": "sync",
-
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+  "git.openRepositoryInParentFolders": "never",
+  "git.ignoreRebaseWarning": true,
+  // Github
+  "githubIssues.issueCompletions.enabled": false,
+  "githubIssues.userCompletions.enabled": false,
+  "githubPullRequests.createDraft": true,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "githubPullRequests.pushBranch": "always",
+  "githubPullRequests.pullBranch": "never",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "scminput": false
   },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
+  // Dart
+  "dart.openDevTools": "flutter",
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": true,
+  "dart.renameFilesWithClasses": "prompt",
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "dart.checkForSdkUpdates": false,
+  "dart.promptToGetPackages": false,
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -28,89 +71,40 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "dart.openDevTools": "flutter",
-  "workbench.startupEditor": "none",
-  "dart.debugExternalPackageLibraries": true,
-  "dart.debugSdkLibraries": true,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.patterns": {
-    "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
-    "*.dart": "${capture}.g.dart",
-    "*.ts": "${capture}.typegen.ts",
-    "*.tsx": "${capture}.typegen.ts",
-    "*.mts": "${capture}.typegen.ts",
-    "*.cts": "${capture}.typegen.ts"
-  },
-  "editor.fontLigatures": true,
-  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-  "explorer.confirmDelete": false,
-  "workbench.editor.openPositioning": "last",
-  "workbench.editor.closeOnFileDelete": true,
-  "workbench.editor.revealIfOpen": true,
-  "workbench.editor.sharedViewState": true,
-  "dart.renameFilesWithClasses": "prompt",
-  "lldb.library": "/Applications/Xcode-14.3.1.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
-  "window.restoreFullscreen": true,
-  "dart.showInspectorNotificationsForWidgetErrors": false,
-  "yaml.schemas": {
-    "file:///Users/sam/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  },
-
-  "redhat.telemetry.enabled": false,
-  "go.survey.prompt": false,
-  "go.toolsManagement.checkForUpdates": "off",
-  "git.enableSmartCommit": true,
-  "git.inputValidation": "off",
-  "git.mergeEditor": true,
-  "git.pruneOnFetch": true,
-  "debug.toolBarLocation": "hidden",
-  "git.closeDiffOnOperation": true,
-  "git.fetchOnPull": true,
-  "git.postCommitCommand": "sync",
-  "workbench.colorTheme": "GitHub Dark",
-  "dart.checkForSdkUpdates": false,
-  "githubPullRequests.pullBranch": "never",
-  "git.ignoreRebaseWarning": true,
-  "editor.indentSize": "tabSize",
-  "editor.tabSize": 2,
-  "editor.dragAndDrop": false,
+  // Jira
+  "atlascode.jira.startWorkBranchTemplate.customPrefixes": [],
+  "atlascode.jira.explorer.monitorEnabled": false,
+  "atlascode.jira.startWorkBranchTemplate.customTemplate": "issues/{{{issueKey}}}-{{{summary}}}",
   "atlascode.bitbucket.enabled": false,
-  "dart.promptToGetPackages": false,
-  "workbench.iconTheme": "vscode-icons",
-  "editor.inlineSuggest.enabled": true,
   "atlascode.jira.lastCreateSiteAndProject": {
     "siteId": "028c6563-89de-48ca-becd-da2bfefd5509",
     "projectKey": "TEC"
   },
-  "githubIssues.issueCompletions.enabled": false,
+  // Other
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "lldb.library": "~/.local/share/current-lldb",
+  "window.restoreFullscreen": true,
+  "yaml.schemas": {
+    "~/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": false,
+  "go.survey.prompt": false,
+  "go.toolsManagement.checkForUpdates": "off",
   "[python]": {
     "editor.formatOnType": true
   },
-  "githubPullRequests.createDraft": true,
-  "githubIssues.userCompletions.enabled": false,
-  "editor.inlineSuggest.enabled": true,
-  "debug.onTaskErrors": "abort",
-  "githubPullRequests.createOnPublishBranch": "never",
-  "githubPullRequests.pushBranch": "always",
-  "atlascode.jira.startWorkBranchTemplate.customPrefixes": [],
   "sortJSON.excludedFiles": [
     "package.json",
     "**/package.json",
     "turbo.json"
   ],
-  "git.openRepositoryInParentFolders": "never",
-  "workbench.sideBar.location": "right",
-  "atlascode.jira.explorer.monitorEnabled": false,
-  "atlascode.jira.startWorkBranchTemplate.customTemplate": "issues/{{{issueKey}}}-{{{summary}}}",
   "protoc": {},
   "apiLinter.configDir": "${workspaceFolder}/",
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "scminput": false
-  },
-  "git.openRepositoryInParentFolders": "never",
   "vsicons.dontShowNewVersionMessage": true,
   "terminal.integrated.scrollback": 10000,
   "gitlens.terminalLinks.enabled": false,
