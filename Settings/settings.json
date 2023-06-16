@@ -98,12 +98,6 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "sortJSON.excludedFiles": [
-    "package.json",
-    "**/package.json",
-    "turbo.json"
-  ],
-  "protoc": {},
   "apiLinter.configDir": "${workspaceFolder}/",
   "vsicons.dontShowNewVersionMessage": true,
   "terminal.integrated.scrollback": 10000,
