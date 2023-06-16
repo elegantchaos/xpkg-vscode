@@ -131,9 +131,44 @@
     "key": "ctrl+right",
     "command": "workbench.action.splitEditorToRightGroup"
   },
+  // Explorer
   {
     "key": "cmd+1",
     "command": "workbench.view.explorer"
+  },
+  // Run and Debug
+  {
+    "key": "cmd+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  // Source Control
+  {
+    "key": "cmd+3",
+    "command": "-workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  // Jira
+  {
+    "key": "cmd+4",
+    "command": "-workbench.action.focusFourthEditorGroup"
+  },
+  {
+    "key": "cmd+4",
+    "command": "atlascode.views.jira.customJql.focus"
   },
   {
     "key": "cmd+'",
@@ -197,37 +232,14 @@
     "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "cmd+2",
-    "command": "-workbench.action.focusSecondEditorGroup"
-  },
-  {
-    "key": "cmd+3",
-    "command": "-workbench.action.focusThirdEditorGroup"
-  },
-  {
-    "key": "cmd+3",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active"
-  },
-  {
     "key": "ctrl+shift+g",
     "command": "-workbench.view.scm",
     "when": "workbench.scm.active"
   },
   {
-    "key": "cmd+3",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
-  },
-  {
     "key": "ctrl+shift+g",
     "command": "-workbench.view.scm",
     "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
-  },
-  {
-    "key": "cmd+2",
-    "command": "workbench.view.debug",
-    "when": "viewContainer.workbench.view.debug.enabled"
   },
   {
     "key": "shift+cmd+d",
@@ -235,19 +247,11 @@
     "when": "viewContainer.workbench.view.debug.enabled"
   },
   {
-    "key": "cmd+4",
-    "command": "-workbench.action.focusFourthEditorGroup"
-  },
-  {
-    "key": "cmd+4",
-    "command": "atlascode.views.jira.customJql.focus"
-  },
-  {
     "key": "f3",
     "command": "-editor.action.nextMatchFindAction",
     "when": "editorFocus"
   },
-{
+  {
     "key": "alt+/",
     "command": "-gitlens.gitCommands",
     "when": "!gitlens:disabled && config.gitlens.keymap == 'alternate'"
