@@ -5,9 +5,19 @@
     "command": "atlascode.jira.showIssueForKey"
   },
   {
+    "key": "shift+cmd+k g",
+    "command": "launches.RunGameLocal",
+    "arg": "restart"
+  },
+  {
     "key": "shift+cmd+k w",
     "command": "workbench.action.tasks.runTask",
     "args": "club: watch"
+  },
+  {
+    "key": "shift+cmd+k s",
+    "command": "launches.RunServer",
+    "arg": "restart"
   },
   {
     "key": "shift+cmd+k m",
