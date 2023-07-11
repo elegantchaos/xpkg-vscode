@@ -1,12 +1,21 @@
 {
   // Editor
+  //
   "editor.minimap.enabled": false,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Iconsolata, Menlo, Monaco, 'Courier New', monospace",
   "editor.indentSize": "tabSize",
   "editor.tabSize": 2,
+  "editor.fontSize": 13,
+  "editor.fontWeight": "600",
+  "editor.lineHeight": 1.4,
   "editor.dragAndDrop": false,
   "editor.inlineSuggest.enabled": true,
+  "editor.find.globalFindClipboard": true,
+  "editor.find.seedSearchStringFromSelection": "selection",
+  "editor.guides.bracketPairs": false,
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.guides.indentation": false,
   // Explorer
   "explorer.confirmDragAndDrop": false,
   "explorer.fileNesting.enabled": true,
@@ -50,7 +59,8 @@
   "githubPullRequests.pullBranch": "never",
   "github.copilot.enable": {
     "*": true,
-    "plaintext": false,
+    "plaintext": true,
+    "markdown": false,
     "scminput": false
   },
   // Dart
@@ -90,7 +100,7 @@
   "lldb.library": "~/.local/share/current-lldb",
   "window.restoreFullscreen": true,
   "yaml.schemas": {
-    "~/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///Users/sam/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "redhat.telemetry.enabled": false,
   "go.survey.prompt": false,
@@ -103,5 +113,6 @@
   "terminal.integrated.scrollback": 10000,
   "gitlens.terminalLinks.enabled": false,
   "debug.onTaskErrors": "showErrors",
-  "debug.toolBarLocation": "hidden"
+  "debug.toolBarLocation": "hidden",
+  "workbench.colorTheme": "Default Light Modern"
 }
