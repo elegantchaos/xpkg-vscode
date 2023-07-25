@@ -45,6 +45,11 @@
     "args": "club: ci"
   },
   {
+    "key": "shift+cmd+k p",
+    "command": "workbench.action.tasks.runTask",
+    "args": "club: prepare"
+  },
+  {
     "key": "shift+cmd+e",
     "command": "-workbench.view.explorer",
     "when": "viewContainer.workbench.view.explorer.enabled"
