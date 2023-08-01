@@ -1,6 +1,7 @@
 {
+  // ----------------------
   // Editor
-  //
+  // ----------------------
   "editor.minimap.enabled": false,
   "editor.fontLigatures": true,
   "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Iconsolata, Menlo, Monaco, 'Courier New', monospace",
@@ -18,10 +19,15 @@
   "editor.inlineSuggest.enabled": true,
   "editor.find.globalFindClipboard": true,
   "editor.find.seedSearchStringFromSelection": "selection",
+  "search.mode": "view",
+  "search.globalFindClipboard": true,
   "editor.guides.bracketPairs": false,
   "editor.guides.bracketPairsHorizontal": false,
   "editor.guides.indentation": false,
+  //
+  // ----------------------
   // Explorer
+  // ----------------------
   "explorer.confirmDragAndDrop": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
@@ -33,15 +39,22 @@
     "*.cts": "${capture}.typegen.ts"
   },
   "explorer.confirmDelete": false,
+  //
+  // ----------------------
   // Workbench
+  // ----------------------
   "workbench.startupEditor": "none",
   "workbench.editor.openPositioning": "last",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.revealIfOpen": true,
   "workbench.editor.sharedViewState": true,
   "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Default Light Modern",
   "workbench.iconTheme": "vscode-icons",
+  //
+  // ----------------------
   // Git
+  // ----------------------
   "git.confirmSync": false,
   "git.closeDiffOnOperation": true,
   "git.autofetch": true,
@@ -55,7 +68,10 @@
   "git.postCommitCommand": "sync",
   "git.openRepositoryInParentFolders": "never",
   "git.ignoreRebaseWarning": true,
+  //
+  // ----------------------
   // Github
+  // ----------------------
   "githubIssues.issueCompletions.enabled": false,
   "githubIssues.userCompletions.enabled": false,
   "githubPullRequests.createDraft": true,
@@ -68,7 +84,15 @@
     "markdown": false,
     "scminput": false
   },
+  //
+  // ----------------------
+  // GitLens
+  // ----------------------
+  "gitlens.terminalLinks.enabled": false,
+  //
+  // ----------------------
   // Dart
+  // ----------------------
   "dart.openDevTools": "flutter",
   "dart.debugExternalPackageLibraries": true,
   "dart.debugSdkLibraries": true,
@@ -86,7 +110,10 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
+  //
+  // ----------------------
   // Jira
+  // ----------------------
   "atlascode.jira.startWorkBranchTemplate.customPrefixes": [],
   "atlascode.jira.explorer.monitorEnabled": false,
   "atlascode.jira.startWorkBranchTemplate.customTemplate": "issues/{{{issueKey}}}-{{{summary}}}",
@@ -95,29 +122,40 @@
     "siteId": "028c6563-89de-48ca-becd-da2bfefd5509",
     "projectKey": "TEC"
   },
+  //
+  // ----------------------
+  // LLDB
+  // ----------------------
+  "lldb.library": "${HOME}/.local/share/current-xcode/../SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "lldb.launch.expressions": "native",
+  //
+  // ----------------------
+  // Go
+  // ----------------------
+  "go.survey.prompt": false,
+  "go.toolsManagement.checkForUpdates": "off",
+  //
+  // ----------------------
   // Other
+  // ----------------------
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "lldb.library": "~/.local/share/current-lldb",
   "window.restoreFullscreen": true,
   "yaml.schemas": {
     "file:///Users/sam/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "redhat.telemetry.enabled": false,
-  "go.survey.prompt": false,
-  "go.toolsManagement.checkForUpdates": "off",
   "[python]": {
     "editor.formatOnType": true
   },
   "apiLinter.configDir": "${workspaceFolder}/",
   "vsicons.dontShowNewVersionMessage": true,
   "terminal.integrated.scrollback": 10000,
-  "gitlens.terminalLinks.enabled": false,
   "debug.onTaskErrors": "showErrors",
   "debug.toolBarLocation": "hidden",
-  "workbench.colorTheme": "Default Light Modern"
+  "window.zoomLevel": -1,
 }
