@@ -293,5 +293,14 @@
   {
     "key": "shift+cmd+0",
     "command": "workbench.action.maximizeEditor"
+  },
+  {
+    "key": "cmd+; cmd+f",
+    "command": "-testing.debugCurrentFile",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+u",
+    "command": "testing.debugCurrentFile"
   }
 ]
