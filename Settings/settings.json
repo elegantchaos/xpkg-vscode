@@ -146,7 +146,7 @@
   },
   "window.restoreFullscreen": true,
   "yaml.schemas": {
-    "file:///Users/sam/.vscode/extensions/atlassian.atlascode-3.0.4/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///Users/sam/.vscode/extensions/atlassian.atlascode-3.0.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "redhat.telemetry.enabled": false,
   "[python]": {
