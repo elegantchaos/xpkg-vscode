@@ -74,7 +74,7 @@
   // ----------------------
   "githubIssues.issueCompletions.enabled": false,
   "githubIssues.userCompletions.enabled": false,
-  "githubPullRequests.createDraft": true,
+  "githubPullRequests.defaultCreateOption": "createDraft",
   "githubPullRequests.createOnPublishBranch": "never",
   "githubPullRequests.pushBranch": "always",
   "githubPullRequests.pullBranch": "never",
