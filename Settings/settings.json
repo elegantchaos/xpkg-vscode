@@ -126,7 +126,7 @@
   // ----------------------
   // LLDB
   // ----------------------
-  "lldb.library": "${HOME}/.local/share/current-xcode/../SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "lldb.library": "${userHome}/.local/share/current-xcode/../SharedFrameworks/LLDB.framework/Versions/A/LLDB",
   "lldb.launch.expressions": "native",
   //
   // ----------------------
