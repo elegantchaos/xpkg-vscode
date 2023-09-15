@@ -49,7 +49,6 @@
   "workbench.editor.revealIfOpen": true,
   "workbench.editor.sharedViewState": true,
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Default Light Modern",
   "workbench.iconTheme": "vscode-icons",
   //
   // ----------------------
@@ -157,6 +156,11 @@
   "terminal.integrated.scrollback": 10000,
   "debug.onTaskErrors": "showErrors",
   "debug.toolBarLocation": "hidden",
-  "window.zoomLevel": -1,
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "workbench.editor.tabSizing": "shrink",
+  "keyboard.touchbar.ignored": [
+    "workbench.action.navigateBack"
+  ],
   "editor.hover.delay": 1000,
+  "window.commandCenter": false,
 }

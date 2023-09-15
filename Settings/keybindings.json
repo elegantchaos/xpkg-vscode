@@ -301,6 +301,12 @@
   },
   {
     "key": "cmd+u",
-    "command": "testing.debugCurrentFile"
-  }
+    "command": "-cursorUndo",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+u",
+    "command": "testing.debugCurrentFile",
+    "when": "editorTextFocus"
+  },
 ]
