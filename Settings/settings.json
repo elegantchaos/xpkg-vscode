@@ -158,4 +158,5 @@
   "debug.onTaskErrors": "showErrors",
   "debug.toolBarLocation": "hidden",
   "window.zoomLevel": -1,
+  "editor.hover.delay": 1000,
 }
