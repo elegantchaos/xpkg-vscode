@@ -2,29 +2,29 @@
   // ----------------------
   // Editor
   // ----------------------
-  "editor.dragAndDrop": false,
-  "editor.find.globalFindClipboard": true,
-  "editor.find.seedSearchStringFromSelection": "selection",
-  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Iconsolata, Menlo, Monaco, 'Courier New', monospace",
+  "editor.hover.delay": 1000,
+  "editor.minimap.enabled": false,
   "editor.fontLigatures": true,
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Iconsolata, Menlo, Monaco, 'Courier New', monospace",
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
   "editor.fontSize": 13,
   "editor.fontWeight": "500",
+  "editor.lineHeight": 1.4,
+  "editor.lineNumbers": "off",
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleReferences": "goto",
+  "editor.dragAndDrop": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.find.globalFindClipboard": true,
+  "editor.find.seedSearchStringFromSelection": "selection",
+  "search.mode": "view",
+  "search.globalFindClipboard": true,
   "editor.guides.bracketPairs": false,
   "editor.guides.bracketPairsHorizontal": false,
   "editor.guides.indentation": false,
-  "editor.hover.delay": 1000,
-  "editor.indentSize": "tabSize",
-  "editor.inlineSuggest.enabled": true,
-  "editor.lineHeight": 1.4,
-  "editor.lineNumbers": "off",
-  "editor.minimap.enabled": false,
-  "editor.tabSize": 2,
-  "search.globalFindClipboard": true,
-  "search.mode": "view",
   //
   // ----------------------
   // Explorer
@@ -44,15 +44,19 @@
   // ----------------------
   // Workbench
   // ----------------------
-  "workbench.editor.closeOnFileDelete": true,
+  "workbench.startupEditor": "none",
   "workbench.editor.openPositioning": "last",
-  "workbench.editor.pinnedTabSizing": "shrink",
+  "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.revealIfOpen": true,
   "workbench.editor.sharedViewState": true,
-  "workbench.editor.tabSizing": "shrink",
-  "workbench.iconTheme": "vscode-icons",
   "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.colorCustomizations": {
+    "statusBar.debuggingBackground": "#440000"
+  },
   //
   // ----------------------
   // Git
@@ -110,7 +114,7 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
   },
   //
   // ----------------------
@@ -128,7 +132,7 @@
   // ----------------------
   // LLDB
   // ----------------------
-  "lldb.library": "${userHome}/.local/share/current-xcode/../SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "lldb.library": "/Users/sam/.local/share/current-lldb",
   "lldb.launch.expressions": "native",
   //
   // ----------------------
@@ -142,7 +146,12 @@
   // ----------------------
   "window.restoreFullscreen": true,
   "window.commandCenter": false,
-
+  //
+  // ----------------------
+  // Debug
+  // ----------------------
+  "debug.onTaskErrors": "showErrors",
+  "debug.toolBarLocation": "hidden",
   //
   // ----------------------
   // Other
@@ -154,7 +163,7 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "yaml.schemas": {
-    "file:///Users/sam/.vscode/extensions/atlassian.atlascode-3.0.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///Users/sam/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "redhat.telemetry.enabled": false,
   "[python]": {
@@ -163,9 +172,9 @@
   "apiLinter.configDir": "${workspaceFolder}/",
   "vsicons.dontShowNewVersionMessage": true,
   "terminal.integrated.scrollback": 10000,
-  "debug.onTaskErrors": "showErrors",
-  "debug.toolBarLocation": "hidden",
   "keyboard.touchbar.ignored": [
     "workbench.action.navigateBack"
-  ]
+  ],
+  "apiLinter.configFile": "${workspaceFolder}/.apilinter.yml",
+  "dart.flutterSdkPath": "/Users/sam/.asdf/installs/flutter/3.16.0-stable",
 }
