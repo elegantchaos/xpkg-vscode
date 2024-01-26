@@ -40,11 +40,6 @@
     "args": "club: generate"
   },
   {
-    "key": "shift+cmd+k t",
-    "command": "workbench.action.tasks.runTask",
-    "args": "club: ci"
-  },
-  {
     "key": "shift+cmd+k p",
     "command": "workbench.action.tasks.runTask",
     "args": "club: prepare"
@@ -308,5 +303,49 @@
     "key": "cmd+u",
     "command": "testing.debugCurrentFile",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+k t",
+    "command": "workbench.action.createTerminalEditor"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+up",
+    "command": "-editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+down",
+    "command": "-editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+up",
+    "command": "cursorLineStart",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "-cursorLineStart",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+down",
+    "command": "cursorLineEnd",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-cursorLineEnd",
+    "when": "textInputFocus"
   },
 ]
